@@ -1,0 +1,21 @@
+<div class="row">
+    <div class ="col-sm-9"
+
+<h2> 
+    <i class=" far fa-calendar-alt"></i>
+    <%= @event[:date] %>
+</h2>
+<h1> <%= @event[:title] %></h1>
+<p> <%= @event[:description] %> </p>
+<div class="media">
+<i  class ="fas fa-thums=up fa-3x"></i>
+<div class="media body">
+<h5 class="mt-8">Brian</h5>
+Would't miss it!
+</div>
+
+</div>
+<p class="mt-5"><a href="/events/<%= @event[:is] %>/rsvps/new" class="btn btn-primary">RSVP now! </a>
+
+
+
